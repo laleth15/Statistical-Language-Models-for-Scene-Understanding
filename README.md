@@ -5,6 +5,7 @@ This project aims to develop an image classification model, based on objects det
 
 The significance of this approach is that it provides the model with a semantic understanding of an environment and the entities within it. To explain this, we can revisit the above example “go fetch a spoon,” the model should understand that a spoon is likely to be in the kitchen rather than the bedroom. Another significance of this approach might have is to reduce the training time or complexity of Computer Vision models by limiting the training data to only lower-level classes i.e., specific objects. In the popular ImageNet challenges new and efficient models are being introduced every year for detection or classification tasks. These models almost always are trained on data that have labels on multiple hierarchical levels. For example, a class car could have sub-classes called Fiet, BMW, Audi, etc. This always makes the model more complex. In our approach, we hope to create a new method for classification models that use the lower-level classes to classify classes on higher levels.
 
+Contributors:
 Avinash Arutla, Laleth Indirani Nehrukumar, Sheela Hansda
 
 arutla.a@northeastern.edu, indiraninehrukumar.l@northeastern.edu, hansda.s@northeastern.edu
